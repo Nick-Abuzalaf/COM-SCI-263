@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "func_name": "length_of_longest_substring",
+  "test_cases": [
+      {
+          "input": {"s": "abcabcbb"},
+          "output": 3
+      },
+      {
+          "input": {"s": "bbbbb"},
+          "output": 1
+      },
+      {
+          "input": {"s": "pwwkew"},
+          "output": 3
+      }
+  ]
+}
