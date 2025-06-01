@@ -1,0 +1,56 @@
+{
+  "id": 49,
+  "func_name": "group_anagrams",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "eat",
+          "tea",
+          "tan",
+          "ate",
+          "nat",
+          "bat"
+        ]
+      },
+      "output": [
+        [
+          "bat"
+        ],
+        [
+          "nat",
+          "tan"
+        ],
+        [
+          "ate",
+          "eat",
+          "tea"
+        ]
+      ]
+    },
+    {
+      "input": {
+        "strs": [
+          ""
+        ]
+      },
+      "output": [
+        [
+          ""
+        ]
+      ]
+    },
+    {
+      "input": {
+        "strs": [
+          "a"
+        ]
+      },
+      "output": [
+        [
+          "a"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 71,
+  "func_name": "simplifyPath",
+  "test_cases": [
+    {
+      "input": {
+        "path": "/home/ "
+      },
+      "output": "/home "
+    },
+    {
+      "input": {
+        "path": "/../ "
+      },
+      "output": "/ "
+    },
+    {
+      "input": {
+        "path": "/home//foo/ "
+      },
+      "output": "/home/foo "
+    }
+  ]
+}

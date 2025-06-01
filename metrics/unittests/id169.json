@@ -1,0 +1,30 @@
+{
+  "id": 169,
+  "func_name": "majority_element",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          3
+        ]
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          1,
+          1,
+          1,
+          2,
+          2
+        ]
+      },
+      "output": 2
+    }
+  ]
+}

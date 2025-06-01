@@ -1,0 +1,84 @@
+{
+  "id": 79,
+  "func_name": "exist",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          [
+            "A ",
+            "B ",
+            "C ",
+            "E "
+          ],
+          [
+            "S ",
+            "F ",
+            "C ",
+            "S "
+          ],
+          [
+            "A ",
+            "D ",
+            "E ",
+            "E "
+          ]
+        ],
+        "word": "ABCCED "
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "A ",
+            "B ",
+            "C ",
+            "E "
+          ],
+          [
+            "S ",
+            "F ",
+            "C ",
+            "S "
+          ],
+          [
+            "A ",
+            "D ",
+            "E ",
+            "E "
+          ]
+        ],
+        "word": "SEE "
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "A ",
+            "B ",
+            "C ",
+            "E "
+          ],
+          [
+            "S ",
+            "F ",
+            "C ",
+            "S "
+          ],
+          [
+            "A ",
+            "D ",
+            "E ",
+            "E "
+          ]
+        ],
+        "word": "ABCB "
+      },
+      "output": "false"
+    }
+  ]
+}

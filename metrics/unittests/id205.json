@@ -1,0 +1,27 @@
+{
+  "id": 205,
+  "func_name": "is_isomorphic",
+  "test_cases": [
+    {
+      "input": {
+        "s": "egg",
+        "t": "add"
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "s": "foo",
+        "t": "bar"
+      },
+      "output": "false"
+    },
+    {
+      "input": {
+        "s": "paper",
+        "t": "title"
+      },
+      "output": "true"
+    }
+  ]
+}

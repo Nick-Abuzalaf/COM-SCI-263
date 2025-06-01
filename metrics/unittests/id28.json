@@ -1,0 +1,20 @@
+{
+  "id": 28,
+  "func_name": "strStr",
+  "test_cases": [
+    {
+      "input": {
+        "haystack": "sadbutsad ",
+        "needle": "sad "
+      },
+      "output": 0
+    },
+    {
+      "input": {
+        "haystack": "leetcode ",
+        "needle": "leeto "
+      },
+      "output": -1
+    }
+  ]
+}

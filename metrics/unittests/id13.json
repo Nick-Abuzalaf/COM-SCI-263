@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "func_name": "roman_to_int",
+  "test_cases": [
+    {
+      "input": {
+        "s": "III"
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "s": "LVIII"
+      },
+      "output": 58
+    },
+    {
+      "input": {
+        "s": "MCMXCIV"
+      },
+      "output": 1994
+    }
+  ]
+}

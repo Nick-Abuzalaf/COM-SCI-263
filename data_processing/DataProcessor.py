@@ -25,10 +25,10 @@ class DataProcessor:
 
             df = df.drop([col], axis=1)
 
-        if not os.path.exists(output):
+        if not os.path.exists(os.path.dirname(output)):
             os.mkdir(output)
 
-        df.to_csv(os.path.join(output, "lc_dataset_clean.csv"), index=False)
+        df.to_csv(output, index=False)
 
         return
 
@@ -51,7 +51,8 @@ class DataProcessor:
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
 
-    argparser.add_argument("--output", help="Path to output dataset", default=os.path.join(os.getcwd(), "../output"))
+    argparser.add_argument("--output", help="Path to output dataset",
+                           default=os.path.join(os.getcwd(), "..", "dataset", "lc_dataset_clean.csv"))
     args = argparser.parse_args()
 
     dp = DataProcessor()

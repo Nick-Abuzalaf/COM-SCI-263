@@ -1,0 +1,27 @@
+{
+  "id": 290,
+  "func_name": "word_pattern",
+  "test_cases": [
+    {
+      "input": {
+        "pattern": "abba ",
+        "s": "dog cat cat dog "
+      },
+      "output": true
+    },
+    {
+      "input": {
+        "pattern": "abba ",
+        "s": "dog cat cat fish "
+      },
+      "output": false
+    },
+    {
+      "input": {
+        "pattern": "aaaa ",
+        "s": "dog cat cat dog "
+      },
+      "output": false
+    }
+  ]
+}

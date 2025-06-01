@@ -1,0 +1,38 @@
+{
+  "id": 17,
+  "func_name": "letter_combinations",
+  "test_cases": [
+    {
+      "input": {
+        "digits": "23"
+      },
+      "output": [
+        "ad",
+        "ae",
+        "af",
+        "bd",
+        "be",
+        "bf",
+        "cd",
+        "ce",
+        "cf"
+      ]
+    },
+    {
+      "input": {
+        "digits": ""
+      },
+      "output": []
+    },
+    {
+      "input": {
+        "digits": "2"
+      },
+      "output": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 242,
+  "func_name": "is_anagram",
+  "test_cases": [
+    {
+      "input": {
+        "s": "anagram",
+        "t": "nagaram"
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "s": "rat",
+        "t": "car"
+      },
+      "output": "false"
+    }
+  ]
+}

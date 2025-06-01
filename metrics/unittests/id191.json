@@ -1,0 +1,24 @@
+{
+  "id": 191,
+  "func_name": "hamming_weight",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1011
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "n": 10000000
+      },
+      "output": 1
+    },
+    {
+      "input": {
+        "n": 11111111111111111111111111111101
+      },
+      "output": 31
+    }
+  ]
+}

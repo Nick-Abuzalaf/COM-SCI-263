@@ -1,0 +1,18 @@
+{
+  "id": 202,
+  "func_name": "get_next",
+  "test_cases": [
+    {
+      "input": {
+        "n": 19
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "output": "false"
+    }
+  ]
+}

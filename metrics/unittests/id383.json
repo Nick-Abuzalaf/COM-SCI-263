@@ -1,0 +1,27 @@
+{
+  "id": 383,
+  "func_name": "can_construct",
+  "test_cases": [
+    {
+      "input": {
+        "ransom_note": "a",
+        "magazine": "b"
+      },
+      "output": "false"
+    },
+    {
+      "input": {
+        "ransom_note": "aa",
+        "magazine": "ab"
+      },
+      "output": "false"
+    },
+    {
+      "input": {
+        "ransom_note": "aa",
+        "magazine": "aab"
+      },
+      "output": "true"
+    }
+  ]
+}

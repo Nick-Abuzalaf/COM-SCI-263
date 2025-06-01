@@ -1,0 +1,26 @@
+{
+  "id": 14,
+  "func_name": "longest_common_prefix",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "flower ",
+          "flow ",
+          "flight "
+        ]
+      },
+      "output": "fl "
+    },
+    {
+      "input": {
+        "strs": [
+          "dog ",
+          "racecar ",
+          "car "
+        ]
+      },
+      "output": " "
+    }
+  ]
+}

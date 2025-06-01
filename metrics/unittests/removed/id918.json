@@ -1,0 +1,37 @@
+{
+  "id": 918,
+  "func_name": "reachableNodes",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          -2,
+          3,
+          -2
+        ]
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          -3,
+          5
+        ]
+      },
+      "output": 10
+    },
+    {
+      "input": {
+        "nums": [
+          -3,
+          -2,
+          -3
+        ]
+      },
+      "output": -2
+    }
+  ]
+}

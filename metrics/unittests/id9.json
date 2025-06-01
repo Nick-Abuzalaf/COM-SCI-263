@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "func_name": "is_palindrome",
+  "test_cases": [
+    {
+      "input": {
+        "x": 121
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "x": -121
+      },
+      "output": "false"
+    },
+    {
+      "input": {
+        "x": 10
+      },
+      "output": "false"
+    }
+  ]
+}

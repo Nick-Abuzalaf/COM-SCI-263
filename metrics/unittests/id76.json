@@ -1,0 +1,27 @@
+{
+  "id": 76,
+  "func_name": "min_window",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ADOBECODEBANC ",
+        "t": "ABC "
+      },
+      "output": "BANC "
+    },
+    {
+      "input": {
+        "s": "a ",
+        "t": "a "
+      },
+      "output": "a "
+    },
+    {
+      "input": {
+        "s": "a ",
+        "t": "aa "
+      },
+      "output": " "
+    }
+  ]
+}

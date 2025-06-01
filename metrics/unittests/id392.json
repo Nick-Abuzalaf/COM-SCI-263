@@ -1,0 +1,20 @@
+{
+  "id": 392,
+  "func_name": "is_subsequence",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc",
+        "t": "ahbgdc"
+      },
+      "output": true
+    },
+    {
+      "input": {
+        "s": "axc",
+        "t": "ahbgdc"
+      },
+      "output": false
+    }
+  ]
+}

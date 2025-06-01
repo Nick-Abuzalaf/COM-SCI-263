@@ -1,0 +1,27 @@
+{
+  "id": 6,
+  "func_name": "convert",
+  "test_cases": [
+    {
+      "input": {
+        "s": "PAYPALISHIRING ",
+        "numRows": 3
+      },
+      "output": "PAHNAPLSIIGYIR "
+    },
+    {
+      "input": {
+        "s": "PAYPALISHIRING ",
+        "numRows": 4
+      },
+      "output": "PINALSIGYAHRPI "
+    },
+    {
+      "input": {
+        "s": "A ",
+        "numRows": 1
+      },
+      "output": "A "
+    }
+  ]
+}

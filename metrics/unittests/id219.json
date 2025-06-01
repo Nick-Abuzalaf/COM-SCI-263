@@ -1,0 +1,44 @@
+{
+  "id": 219,
+  "func_name": "containsNearbyDuplicate",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          1
+        ],
+        "k": 3
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "k": 1
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          1,
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "output": "false"
+    }
+  ]
+}

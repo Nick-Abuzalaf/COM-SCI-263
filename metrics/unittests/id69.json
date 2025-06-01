@@ -1,0 +1,18 @@
+{
+  "id": 69,
+  "func_name": "mySqrt",
+  "test_cases": [
+    {
+      "input": {
+        "x": 4
+      },
+      "output": 2
+    },
+    {
+      "input": {
+        "x": 8
+      },
+      "output": 2
+    }
+  ]
+}

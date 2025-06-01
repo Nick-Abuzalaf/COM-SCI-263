@@ -1,0 +1,24 @@
+{
+  "id": 151,
+  "func_name": "reverseWords",
+  "test_cases": [
+    {
+      "input": {
+        "s": "the sky is blue "
+      },
+      "output": "blue is sky the "
+    },
+    {
+      "input": {
+        "s": "  hello world   "
+      },
+      "output": "world hello "
+    },
+    {
+      "input": {
+        "s": "a good   example "
+      },
+      "output": "example good a "
+    }
+  ]
+}

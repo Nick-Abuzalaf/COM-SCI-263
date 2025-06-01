@@ -1,0 +1,24 @@
+{
+  "id": 20,
+  "func_name": "is_valid",
+  "test_cases": [
+    {
+      "input": {
+        "s": "() "
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "s": "()[]{} "
+      },
+      "output": "true"
+    },
+    {
+      "input": {
+        "s": "(] "
+      },
+      "output": "false"
+    }
+  ]
+}

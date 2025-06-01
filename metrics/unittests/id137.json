@@ -1,0 +1,31 @@
+{
+  "id": 137,
+  "func_name": "singleNumber",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "output": 3
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          99
+        ]
+      },
+      "output": 99
+    }
+  ]
+}

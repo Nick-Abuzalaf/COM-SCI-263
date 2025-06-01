@@ -1,0 +1,26 @@
+{
+  "id": 135,
+  "func_name": "min_candies",
+  "test_cases": [
+    {
+      "input": {
+        "ratings": [
+          1,
+          0,
+          2
+        ]
+      },
+      "output": 5
+    },
+    {
+      "input": {
+        "ratings": [
+          1,
+          2,
+          2
+        ]
+      },
+      "output": 4
+    }
+  ]
+}
