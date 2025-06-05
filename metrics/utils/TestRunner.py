@@ -46,7 +46,7 @@ class TestRunner:
                 difficulty = str(row["difficulty"].item()).lower()
 
                 test_class = TestClass(truth_code, gen_code, data["func_name"], data["test_cases"])
-                correct, errors, total = test_class.evaluate()
+                correct, errors, total = test_class.evaluate(data["id"])
 
                 results["correct"] += correct
                 results["errors"] += errors

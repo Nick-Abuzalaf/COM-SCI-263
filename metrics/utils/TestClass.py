@@ -12,7 +12,7 @@ class TestClass:
         self.func_name = func_name
         self.test_cases = test_cases
 
-    def evaluate(self):
+    def evaluate(self, id: int = None):
         correct = 0
         errors = 0
 
@@ -31,7 +31,11 @@ class TestClass:
             except:
                 errors += 1
 
-        print(f"{self.func_name}: {correct}/{len(self.test_cases)}")
+        if id:
+            print(f"ID: {id} ({self.func_name}): {correct}/{len(self.test_cases)}")
+        else:
+            print(f"{self.func_name}: {correct}/{len(self.test_cases)}")
+
         return correct, errors, len(self.test_cases)
 
     @staticmethod
